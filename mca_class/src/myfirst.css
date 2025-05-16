@@ -1,0 +1,185 @@
+/* 
+.myhead{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    background-color: rgba(255, 255, 255);
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    height: 70%;
+    width: 10%;
+    border-radius: 50%;
+    background-image: url(../public/logo\ img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.btn1,.btn2,.btn3{
+    height:55%;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 40px;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  
+    width: 8%;
+    border: 1px solid blue;
+    font-size: 18px;
+    background:linear-gradient(to right,orange,rgb(255, 47, 255),rgb(95, 95, 255));
+}
+.btn2{
+    left: 150px;
+}
+.btn1{
+    left: 250px;
+}
+.btn1:hover,.btn2:hover,.btn3:hover{
+    background:linear-gradient(to right,rgb(255, 46, 46),rgb(255, 202, 55),rgb(134, 255, 47));
+    box-shadow: 3px 3px 3px  rgb(255, 164, 44);
+}
+.span2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(235, 2, 2);
+    position: relative;
+    left: 220px;
+    height: 90%;
+    display: block;
+    animation:  move 2s linear 1s infinite ;
+
+}
+button{
+    text-align: center;
+}
+h3,p{
+    color: white;
+    font-size: 18px;
+}
+@keyframes move{
+    from{
+        top:0px;
+    }
+    to{
+        top:3px;
+     
+    }
+}
+.mybody{
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.video1{
+height: 100vh;
+width: 100vw;
+display: flex; 
+align-items: center;
+justify-content: center; 
+overflow: hidden;
+position: relative;
+z-index: 1;
+}  
+.vid{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+} 
+.card1{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position:absolute;
+    z-index: 2;
+    font-size: 18px;
+}
+i{
+    font-size: 20px;
+    color: rgb(234, 30, 30);
+}
+.card2{
+    height: 100%;
+    width: 100%;
+}
+.card-img{
+    height: 45%;
+    width: 100%;
+    border-radius: 10px;
+}
+.card-content{
+    height: 90%;
+    width: 80%;
+    color: rgb(69, 0, 0);
+    backdrop-filter: brightness(155%);
+    border-radius: 10px;
+    padding: 6px;
+}
+.card-content:hover{
+    background-color: rgb(255, 255, 255,1);
+    transform: scale(1.05,1.05);
+    i{
+        color: rgb(43, 0, 255);
+    }
+    p{
+        color: #09842e;
+    }
+}
+.footer{
+    height: 35vh;
+    width: 100%;
+    backdrop-filter:brightness(35%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+.myp{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 10px;
+    }
+.footdiv1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a:hover{
+box-shadow: 3px 3px 3px black;
+}
+
+.footdiv2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myp2{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.pdiv{
+    display: flex;
+} */
