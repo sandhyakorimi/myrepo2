@@ -1,11 +1,29 @@
 @import "tailwindcss";
 
-
-/* button{
-    background-color: blue;
+body{
+  height: 600px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  position: relative;
+  left: 400px;
+  }
+ button{
+    background-color: rgb(99, 99, 255);
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
 }
-
-.app-container {
+input{
+  border: 1px solid black;
+  width: 400px;
+  margin: 10px;
+}
+/*.app-container {
   display: flex;
   height: 100vh;
   font-family: Arial, sans-serif;
