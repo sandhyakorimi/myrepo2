@@ -1,5 +1,5 @@
-import React from "react"
-import '../src/App.css'
+// import React from "react"
+// import '../src/App.css'
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
@@ -143,7 +143,8 @@ import '../src/App.css'
 //   )
 // }
 // export default App
-
+import React from "react"
+import '../src/App.css'
 import Storage from "./storages/storage"
 import Back from "./back"
 import Userdetails from "./back2"
@@ -159,3 +160,26 @@ function App(){
   )
 }
 export default App
+
+
+
+// import React from 'react';
+// import Sidebar from './new1234';
+// import Dashboard from './new123';
+// import './App.css';
+
+// function App() {
+//   const [activePage, setActivePage] = React.useState('dashboard');
+
+//   return (
+//     <div className="app-container">
+//       <Sidebar setActivePage={setActivePage} />
+//       <main className="main-content">
+//         {activePage === 'dashboard' && <Dashboard />}
+//         {/* Future pages like FloorList, BayRoomView, Reports, Settings can be added here */}
+//       </main>
+//     </div>
+//   );
+// }
+
+// export default App;
